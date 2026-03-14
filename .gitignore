@@ -1,0 +1,31 @@
+**/.DS_Store
+csrc/
+simv.daidir/
+novas*
+ucli*
+simv
+wave*
+verdiLog/
+tb_verilator/
+core
+obj_dir/
+
+# VCS/sim artifacts
+sim/*.log
+sim/*.vcd
+sim/imem.hex
+sim/tb.sv
+
+# Generated test binaries/images
+sim/tests/**/imem.hex
+sim/tests/**/*.elf
+sim/tests/**/*.bin
+sim/tests/**/*.dump
+
+# Python cache
+__pycache__/
+*.pyc
+
+# LINT
+vcst_*
+.vc*
